@@ -600,7 +600,7 @@ section {
     align-items: center;
     gap: 20px;
     background: white;
-    padding: 20px 30px;
+    padding: 20px 0px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     max-width: 500px;
@@ -948,7 +948,7 @@ section {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 0px;
     border-radius: 15px;
     flex: 1;
     min-width: 250px;
