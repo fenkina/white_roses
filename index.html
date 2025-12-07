@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Белые Розы — Цветочный магазин</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Навигация -->
     <nav class="navbar">
         <div class="logo">🌹 Белые Розы</div>
+
+        <!-- Чекбокс для управления меню -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <!-- Кнопка гамбургера -->
+        <label for="menu-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+
         <ul class="nav-links">
             <li><a href="index.html">Главная</a></li>
             <li><a href="about.html">О нас</a></li>
